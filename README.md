@@ -1,5 +1,9 @@
 # ColorPdfSpliter
 
+**NOTE**: 将输入的PDF文件分为彩色和黑白两部分（考虑双面打印）。相比原始版本（https://github.com/huuhghhgyg/ColorPdfSpliter），这个版本考虑了双面打印的问题，只要奇数页面（序数从1开始）和紧接的下一页中有任何一页是彩色的，那么这两页都同时分到彩色的输出。
+
+
+
 [English](README_EN.md) | 中文
 
 将输入的PDF文件分为彩色和黑白两部分，彩色打印页数多时省钱💴
